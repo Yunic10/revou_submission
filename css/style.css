@@ -11,15 +11,16 @@ header .title{
     align-items: end;
     position: sticky;
     justify-content: center;
-    background: blue;
-    color: white;
+    background: #365486;
+    color: #DCF2F1;
 }
 
 header h3, header p{
     text-align: center;
+    color: #0F1035;
 }
 
-#luasPersegi{
+#luasKelilingPersegi{
     display: none;
 }
 
@@ -47,8 +48,8 @@ header h3, header p{
 }
 
 .button .hitung{
-    background: rgb(160, 160, 255);
-    color: white;
+    background: #486dad;
+    color: #DCF2F1;
     padding: 12px;
     outline: none;
     border: none;
@@ -58,18 +59,18 @@ header h3, header p{
 }
 
 .hitung:hover{
-    background: #5a7ae4;
+    background: #365486;
     cursor: pointer;
 }
 
 .hitung:active{
-    background: #3d5bc0;
+    background: #0F1035;
     transform: translateY(2px);
 }
 
 .button .reset{
-    background: rgb(235, 117, 96);
-    color: white;
+    background: rgb(206, 88, 67);
+    color: #DCF2F1;
     padding: 12px;
     outline: none;
     border: none;
